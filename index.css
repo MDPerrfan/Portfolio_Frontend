@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 35px -10px;
+    height: 90px;
+    position: sticky;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+.btn {
+    font-size: 15px;
+    border: 1px solid;
+    color: rgb(94, 59, 238);
+    border-radius: 2.5px;
+}
+
+.home_btn {
+    background-color: rgb(94, 59, 238);
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
