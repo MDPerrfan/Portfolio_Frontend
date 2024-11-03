@@ -12,6 +12,39 @@ nav {
     position: sticky;
 }
 
+.bottom-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2f2f2f;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 60px;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Hide navbar at the bottom on large screens and show the top navbar */
+
+@media (max-width: 850px) {
+    .bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    .nav {
+        display: none !important;
+    }
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
 ul li a {
     text-decoration: none;
     color: black;
@@ -38,4 +71,8 @@ h1 {
     border: none;
     border-radius: 2px;
     color: white;
+}
+
+.home_btn:hover {
+    background-color: rgb(32, 32, 32);
 }
