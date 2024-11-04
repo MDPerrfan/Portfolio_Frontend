@@ -12,6 +12,15 @@
         position: sticky;
     }
     
+    nav ul li a {
+        color: #363636;
+        font-weight: 500;
+    }
+    
+    nav ul li a:hover {
+        color: #020202;
+    }
+    
     .bottom-nav {
         display: none;
         position: fixed;
@@ -64,6 +73,11 @@
         border-radius: 2.5px;
     }
     
+    .btn:hover {
+        color: white;
+        background-color: rgb(94, 59, 238);
+    }
+    
     .home_btn {
         background-color: rgb(94, 59, 238);
         border: none;
@@ -99,6 +113,16 @@
         border-radius: 5px;
         padding: 10px;
         font-size: 15px;
+    }
+    
+    .card {
+        background-color: rgb(245, 252, 255);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     
     @media (max-width: 768px) {
