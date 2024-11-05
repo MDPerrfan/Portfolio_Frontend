@@ -18,7 +18,7 @@
     }
     
     nav ul li a:hover {
-        color: #020202;
+        color: #272ad3;
     }
     
     .bottom-nav {
@@ -123,6 +123,7 @@
     .card:hover {
         transform: translateY(-10px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-bottom: 5px solid rgb(104, 60, 207);
     }
     
     @media (max-width: 768px) {
