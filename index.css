@@ -132,4 +132,10 @@
         #heading {
             font-size: 20px;
         }
+        h1 {
+            font-size: 25px !important;
+        }
+        p {
+            font-size: 15px;
+        }
     }
